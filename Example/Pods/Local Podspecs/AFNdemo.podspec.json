@@ -1,0 +1,27 @@
+{
+  "name": "AFNdemo",
+  "version": "1",
+  "summary": "A short description of AFNdemo.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/TAPart/AFNdemo",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Ra2212": "xhf@tsinghua.com"
+  },
+  "source": {
+    "git": "https://github.com/TAPart/AFNdemo.git",
+    "tag": "1"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "AFNdemo/Classes/**/*",
+  "dependencies": {
+    "AFNtest": [
+
+    ]
+  }
+}

@@ -1,0 +1,6 @@
+framework module Pods_AFNdemo_Tests {
+  umbrella header "Pods-AFNdemo_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

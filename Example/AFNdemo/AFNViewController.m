@@ -7,6 +7,7 @@
 //
 
 #import "AFNViewController.h"
+#import <AFNdemo/ViewController.h>
 
 @interface AFNViewController ()
 
@@ -18,7 +19,17 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    NSLog(@"Start");
 }
+
+
+-(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+    
+    ViewController *vc = [ViewController new];
+    [self presentViewController:vc animated:YES completion:nil];
+    
+}
+
 
 - (void)didReceiveMemoryWarning
 {

@@ -1,0 +1,42 @@
+PODS:
+  - AFNdemo (1):
+    - AFNtest
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
+    - AFNetworking/NSURLSession
+  - AFNtest (1):
+    - AFNetworking (~> 4.0.1)
+
+DEPENDENCIES:
+  - AFNdemo (from `../`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - AFNetworking
+  https://github.com/TAPart/TASpace.git:
+    - AFNtest
+
+EXTERNAL SOURCES:
+  AFNdemo:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AFNdemo: 33ecf24103ddbb51d9aa191c22cbd3c614a568a7
+  AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
+  AFNtest: 5dd0af689e57aa1f50693e254f35db6a0913a9a3
+
+PODFILE CHECKSUM: 9a4ef4d3d1cd4a449843fe1f116cce4d7654ed0d
+
+COCOAPODS: 1.10.0
